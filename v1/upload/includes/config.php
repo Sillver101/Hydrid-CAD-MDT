@@ -94,7 +94,7 @@ $bootstrap_theme = "$settings_theme_db";
 $button_style = "$settings_btntheme_db";
 $community_name = "$settings_site_name_db";
 $community_url = "$settings_site_url_db";
-$version = "PR-002";
+$version = "PR-003";
 //Validation Settings
 $validation_enabled = "$settings_sign_up_verification_db";
 $identity_approval_needed = "$settings_identity_verification_db";
