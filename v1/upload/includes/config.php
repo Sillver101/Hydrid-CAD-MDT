@@ -15,7 +15,6 @@
 **/
 $update_in_progress = "No";
 
-
 //grab site variables from here instead of connect file
 $stmt    = $pdo->prepare("SELECT * FROM settings");
 $stmt->execute();
@@ -94,7 +93,7 @@ $bootstrap_theme = "$settings_theme_db";
 $button_style = "$settings_btntheme_db";
 $community_name = "$settings_site_name_db";
 $community_url = "$settings_site_url_db";
-$version = "<strong>PR-001</strong>";
+$version = "PR-002";
 //Validation Settings
 $validation_enabled = "$settings_sign_up_verification_db";
 $identity_approval_needed = "$settings_identity_verification_db";
@@ -129,6 +128,29 @@ $date   = date('Y-m-d');
 $us_date = date_format(date_create_from_format('Y-m-d', $date), 'm/d/Y');
 $time = date('h:i:s A', time());
 
+//REMOVING ANYTHING BELOW THIS LINE WILL VOID SUPPORT.
+//________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 //YOU ARE NOT ALLOWED TO REMOVE THIS. REMOVING THIS, REMOVING BACKLINKS, WILL RESULT IN A DMCA TAKEDOWN AS IT IS A BREACH OF OUR LICENSE (AGPL v3)
 $ftter = '<br /><small><strong><a href="https://discord.gg/NeRrWZC">Powered by Hydrid</a></strong></small><br />
 <small>Version: '.$version;
+
+//version check
+$url_vc = "https://pastebin.com/raw/d63r81DF";
+$data_vc = file_get_contents($url_vc);
+
+if ($data_vc > $version) {
+  define(isOutdated, true);
+} else {
+  define(isOutdated, false);
+}
+
+//pdo check
+if (!class_exists('PDO')) {
+  die("Sorry, Hydrid can not be used without PDO being enabled. If you're running on a local machine, It should already be enabled. If you are running off a hosting provider, Please contact them for further assistance.");
+}
+
+//php version check
+if (floatval(phpversion()) < 5.4) {
+  die("Your PHP Version is not supported. Please update to continue using Hydrid.");
+}
