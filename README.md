@@ -22,7 +22,7 @@ our Discord: https://discord.gg/NeRrWZC and open a ticket.
 # License
 Hydrid is released under GNU Affero General Public License.
 You can view the license terms and conditions at https://www.gnu.org/licenses/agpl-3.0.en.html
-Additionally, You are not allowed to remove the "Powered By Hydrid" branding, or links to Hydrid,
+Additionally, You are not allowed to remove the "Powered By Hydrid" branding, any links to Hydrid,
 or any credits. 
 
 # Installation
