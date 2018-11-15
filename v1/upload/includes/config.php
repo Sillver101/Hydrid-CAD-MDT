@@ -13,6 +13,7 @@
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 **/
+error_reporting(0); // Turn off all error reporting
 $update_in_progress = "No";
 
 //grab site variables from here instead of connect file
@@ -140,9 +141,9 @@ $url_vc = "https://pastebin.com/raw/d63r81DF";
 $data_vc = file_get_contents($url_vc);
 
 if ($data_vc > $version) {
-  define(isOutdated, true);
+  define('isOutdated', true);
 } else {
-  define(isOutdated, false);
+  define('isOutdated', false);
 }
 
 //pdo check
