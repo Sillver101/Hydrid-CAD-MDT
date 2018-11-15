@@ -286,7 +286,7 @@ include('includes/header.php')
             </div>
             <div class="modal-body">
               <form>
-                <select class="js-example-basic-single" name="weaponSearch" onchange="showVeh(this.value)">
+                <select class="js-example-basic-single" name="plateSearch" onchange="showVeh(this.value)">
                   <option selected="true" disabled="disabled">Search VIN, Plate, Or Model</option>
                   <?php
                   $status = 'Enabled';
@@ -420,7 +420,7 @@ include('includes/header.php')
    <!-- end modal -->
    <!-- end modals -->
    <!-- js -->
-   <script src="https://hydrid.us//main-core/assets/js/pages/dispatch.js?v=6g"></script>
+   <script src="assets/js/pages/dispatch.js"></script>
    <!-- end js -->
 </body>
 </html>
