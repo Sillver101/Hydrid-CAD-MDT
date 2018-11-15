@@ -13,6 +13,7 @@
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 **/
+$version = "PR-004";
 error_reporting(0); // Turn off all error reporting
 $update_in_progress = "No";
 
@@ -94,7 +95,6 @@ $bootstrap_theme = "$settings_theme_db";
 $button_style = "$settings_btntheme_db";
 $community_name = "$settings_site_name_db";
 $community_url = "$settings_site_url_db";
-$version = "PR-003";
 //Validation Settings
 $validation_enabled = "$settings_sign_up_verification_db";
 $identity_approval_needed = "$settings_identity_verification_db";
