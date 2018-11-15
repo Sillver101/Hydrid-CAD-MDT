@@ -20,6 +20,9 @@ If you are in-need of support, have a question, need to report an issue, etc, Yo
 our Discord: https://discord.gg/NeRrWZC and open a ticket.
 *We will not provide support for modified files unless you have been given permission.*
 
+# Known Issues
+- None
+
 # License
 Hydrid is released under GNU Affero General Public License.
 You can view the license terms and conditions at https://www.gnu.org/licenses/agpl-3.0.en.html
