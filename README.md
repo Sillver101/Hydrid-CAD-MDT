@@ -21,7 +21,7 @@ our Discord: https://discord.gg/NeRrWZC and open a ticket.
 *We will not provide support for modified files unless you have been given permission.*
 
 # Known Issues
-- None
+- Select2 assets seem to have broken all the sudden. Fixing
 
 # License
 Hydrid is released under GNU Affero General Public License.
