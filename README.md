@@ -35,3 +35,7 @@ or any credits.
 - Create an account
 - In your database under `users`, Find the newly created account and set the `usergroup` to **Management**
 - Done! You now have full access over your CAD/MDT system.
+
+# Contribute!
+If you are a developer and want to Contribute to Hydrid, Contact *Falcon#4552* on Discord.
+(Contributing can be anything from a small bug fix, to something major such as Steam Login as an Option.)
