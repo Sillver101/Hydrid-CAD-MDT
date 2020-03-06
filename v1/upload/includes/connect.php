@@ -2,7 +2,7 @@
 define("DB_HOST", "localhost");
 define("DB_USER", "root");
 define("DB_PASS", "");
-define("DB_NAME", "hydrid_v1");
+define("DB_NAME", "cad");
 
 $pdoOptions = array(
     PDO::ATTR_ERRMODE => PDO::ERRMODE_SILENT,
